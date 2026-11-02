@@ -41,5 +41,9 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
     "esModuleInterop": true,
-  }
+  },
+  // ts-node (dev): solo transpila; el chequeo de tipos lo hace `npm run build`.
+  "ts-node": {
+    "transpileOnly": true,
+  },
 }
